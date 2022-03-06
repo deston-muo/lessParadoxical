@@ -45,12 +45,12 @@ body {
 .nav-logo {
     margin-right:auto;
     font-family: Paradox;
-    font-size: 2.2vw;
-    font-size: 4vh;
+    font-size: 3vw;
+    font-size: 6vh;
     padding:10px;
     cursor:pointer;
     text-decoration: none;
-    color: darkgrey;
+    color:navy;
     transition: all 400ms ease;
 }
 
@@ -72,7 +72,7 @@ body {
     margin-right: 3rem;
     transition: all 400ms ease;
     text-decoration: none;
-    color:darkgrey;
+    color:#363638;
 }
 
   .nav-item a:hover {
@@ -87,7 +87,7 @@ body {
   .btn-primary {
     font-family: Montserrat, sans-serif;
     font-size: 1rem;
-    background: darkgrey;
+    background:#363638;
     border: none;
     color: white;
     outline: none;
@@ -100,7 +100,7 @@ body {
   
   .btn-primary:hover {
     background: lightblue;
-    color:black;
+    color:white;
   }
   
   #dark-mode-button {
@@ -113,6 +113,10 @@ body {
     background-color: black;
   }
 
+  #dark-mode-button:hover {
+    opacity: 75%;
+  }
+
   #dark-mode-slider {
     position: fixed;
     margin-left: -.3vw;
@@ -121,4 +125,11 @@ body {
     height: 2vh;
     border-radius: 15px;
     background-color: white;
+  }
+
+  #darkmodeindicator {
+    position: fixed;
+    width:3vh;
+    margin-left: 1.3vw;
+    margin-top: -4vh;
   }
